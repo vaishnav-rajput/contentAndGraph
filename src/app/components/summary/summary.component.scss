@@ -1,0 +1,39 @@
+.heading{
+    color:darkblue;
+    font-weight:600;
+}
+
+.parent-container{
+    padding: 15px;
+}
+
+.card-container{
+    display: flex;
+    gap: 0 20px ;
+    
+}
+
+.card{
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    // border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(192, 178, 178, 0.2); 
+    border-radius: 8px;
+    
+}
+
+.card-title{
+    color: rgb(155, 155, 173);
+    width: 70%;
+}
+
+
+
+.blue-icon {
+    color: rgb(138, 138, 240);
+    background: transparent;
+  }

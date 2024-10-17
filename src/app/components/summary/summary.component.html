@@ -1,0 +1,14 @@
+<div class="parent-container">
+    <!-- title -->
+    <div class="title-container">
+        <p class="heading"> Fleet Summary</p>
+    </div>
+
+    <div class="card-container">
+        <app-summary-card class="card" *ngFor="let card of summarys">
+            <p class="card-title">{{card.title}}</p>
+            <mat-icon *ngIf="card.info" class="blue-icon">info</mat-icon>
+        </app-summary-card>
+    </div>
+
+</div>
